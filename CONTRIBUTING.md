@@ -3,16 +3,17 @@
 We would love for you to contribute code and help make Feathersjs even more productive than it is
 today! Here are some guidelines we would like you to follow:
 
- - [Submission Guidelines](#submit)
- - [Coding Rules](#rules)
+ - [How to](#submit)
+ - [Coding](#rules)
 
-## <a name="submit"></a> Pull Requests (PR)
+## <a name="submit"></a> How to
 
-### <a name="submit-pr"></a> Submitting a Pull Request
-Before you submit your Pull Request (PR) consider the following guidelines:
+* Search for an open or closed PR that relates to your submission.
+You don't want to duplicate effort.
 
-* Search [GitHub](https://github.com/feathersjs/feathers-community-hooks) for an open or closed PR
-  that relates to your submission. You don't want to duplicate effort.
+### <a name="submit-pr"></a> Submit your Pull Request
+
+* [Fork](https://guides.github.com/activities/forking/) `feathers-community-hooks`.
 * Make your changes in a new git branch:
 
      ```shell
@@ -31,9 +32,8 @@ Hooks useful for specific industries should be categorized by industry.
 * Commit your changes using a descriptive commit message.
 
      ```shell
-     git commit -a
+     git commit -m "Added hook my-hook which ..."
      ```
-  Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
 
 * Push your branch to GitHub:
 
@@ -41,7 +41,7 @@ Hooks useful for specific industries should be categorized by industry.
     git push origin my-hook-branch
     ```
 
-* In GitHub, send a pull request.
+* In GitHub, [send a pull request](https://help.github.com/articles/creating-a-pull-request/).
 * If a change is suggested then:
   * Make the required updates.
   * Re-run the test suite to ensure tests are still passing.
