@@ -24,9 +24,14 @@ and are being made available as-is.
 
 We encourage the community to submit hooks they think are useful,
 categorizing them in this README.
-Please read the [contribution guidelines](./CONTRIBUTING.md)
+Please read the [contribution guidelines](./CONTRIBUTING.md).
+See example [hook](./src/run-parallel.js) and [test](./test/run-parallel.test.js).
 
 ## Community hooks
+
+### Transactions
+
+- `runParallel` runs a hook function in parallel to the Feathers method call. **Has tests.**
 
 ## Documentation
 
