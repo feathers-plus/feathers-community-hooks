@@ -20,7 +20,17 @@ You don't want to duplicate effort.
      git checkout -b my-hook-branch master
      ```
 
-* Create your hook, **including appropriate test cases**.
+* Create your hook in file /src/my-hook.js.
+Use [kebab case](http://wiki.c2.com/?KebabCase) file names.
+* Follow the
+[hook writing convesntions](https://docs.feathersjs.com/guides/step-by-step/basic-feathers/writing-hooks.html).
+
+* Create your test in file /test/my-hook.test.js.
+* Follow the
+[test writing suggestions](https://docs.feathersjs.com/guides/step-by-step/basic-feathers/testing-hooks.html).
+* If you must configure a Feathers service, configure a memory based one.
+* The NeDB adapter should not be used in tests as it cannot be opened more than once in a process.
+
 * Categorize your hook in the README.
 Hooks of a general nature should be mentioned in the
 [concern](https://stackoverflow.com/questions/23700540/cross-cutting-concern-example)
