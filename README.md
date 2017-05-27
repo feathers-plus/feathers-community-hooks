@@ -6,7 +6,7 @@
 [![Download Status](https://img.shields.io/npm/dm/feathers.svg?style=flat-square)](https://www.npmjs.com/package/feathers-community-hooks)
 [![Slack Status](http://slack.feathersjs.com/badge.svg)](http://slack.feathersjs.com)
 
-> Useful Feathers hooks provided by the Feathers community.
+> Useful hooks provided by the Feathers community.
 
 ## Community contributions
 
@@ -17,16 +17,14 @@ Many of your
 are addressed by the
 [Feathers hooks collection](https://docs.feathersjs.com/api/hooks-common.html).
 
-That however cannot provide everything you might need,
-and there's where these hooks from the Feathers community hooks help everyone out.
- 
+That collection however cannot provide everything you might need,
+and there's where these hooks from the Feathers community help everyone out.
 These hooks have been contributed by individual members of the Feathers community
 and are being made available as-is.
-We encourage all hooks contain tests when submitted.
 
 We encourage the community to submit hooks they think are useful,
 categorizing them in this README.
-Please read the [contribution guidelines]()
+Please read the [contribution guidelines](./CONTRIBUTING.md)
 
 ## Community hooks
 
