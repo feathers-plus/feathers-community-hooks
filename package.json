@@ -54,7 +54,7 @@
   "homepage": "https://github.com/feathersjs/feathers-community-hooks#readme",
   "dependencies": {
     "clone": "^2.1.1",
-    "debug": "^2.2.0",
+    "debug": "^3.0.0",
     "feathers-errors": "^2.4.0"
   },
   "devDependencies": {
