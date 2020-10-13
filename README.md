@@ -1,12 +1,8 @@
 ## feathers-community-hooks
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs/feathers-community-hooks.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/feathersjs/feathers-community-hooks.svg?branch=master)](https://travis-ci.org/eddyystop/feathers-community-hooks)
-[![Dependency Status](https://img.shields.io/david/feathersjs/feathers.svg?style=flat-square)](https://david-dm.org/feathersjs/feathers-community-hooks)
-[![Download Status](https://img.shields.io/npm/dm/feathers.svg?style=flat-square)](https://www.npmjs.com/package/feathers-community-hooks)
-[![Slack Status](http://slack.feathersjs.com/badge.svg)](http://slack.feathersjs.com)
+> This module is no longer maintained.
 
-> Useful hooks provided by the Feathers community.
+Useful hooks provided by the Feathers community.
 
 ## Community contributions
 
